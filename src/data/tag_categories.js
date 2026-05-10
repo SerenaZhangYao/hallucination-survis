@@ -1,8 +1,11 @@
 const userDefinedTagCategories = {
-	"category": {
-		"description": "classification categories aligned with the literature review structure"
-	},
-	"theme": {
-		"description": "cross-cutting themes used to compare papers across categories"
-	}
+    "category": {
+        "description": "Literature category: survey, evaluation, detection, or mitigation"
+    },
+    "method": {
+        "description": "Core technical method or approach used in the paper"
+    },
+    "venue": {
+        "description": "Publication venue type: acl, emnlp, neurips, iclr, arxiv"
+    }
 }
